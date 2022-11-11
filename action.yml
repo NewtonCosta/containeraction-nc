@@ -1,0 +1,14 @@
+name: 'My fisrt container action'
+description: 'Growing from 0 to pro"
+author: 'Newton Costa'
+inputs:
+  myInput:
+    description: "greeting to use"
+    required: true
+    default: " GHA is awesom'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
